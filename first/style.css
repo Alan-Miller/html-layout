@@ -1,0 +1,38 @@
+.main-header {
+  background: #666;
+  height: 150px;
+  width: 100vw;
+}
+
+.main-section {
+  background: #eee;
+  display: inline-block;
+  width: 70%;
+  height: 750px;
+  position: relative;
+  float: left;
+}
+
+aside {
+  height: 750px;
+  display: inline-block;
+  width: 15%;
+  background: #ccc;
+  float: left;
+}
+
+.aside-right {
+  /*float: right;*/
+}
+
+.aside-left {
+  /*float: left;*/
+}
+
+.footer {
+  background: #777;
+  width: 100%;
+  height: 10vh;
+  position: absolute;
+  bottom: 0;
+}

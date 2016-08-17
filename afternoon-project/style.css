@@ -1,0 +1,60 @@
+
+header {
+  position: absolute;
+  /*background: red;*/
+  height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /*flex-wrap: wrap;*/
+}
+
+.devmtn-div {
+  /*background: url("icons/Logo.png") no-repeat center;*/
+  width: 26px;
+  height: 27px;
+  margin: 40px;
+}
+
+nav {
+  background: url("icons/Menu-icon.png") no-repeat center;
+  width: 50px;
+  height: 50px;
+  margin: 40px
+}
+
+main {
+  background: url("./namib-desert.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.heading-div {
+  margin-top: 140px;
+}
+
+.heading-div, .line-div, .text-div, .button-div {
+  margin-bottom: 50px;
+}
+
+.button-div {
+  background: url("./icons/button-down.png");
+  /*background: red;*/
+  height: 70px;
+  width: 70px;
+}
+
+.heading-div {
+  font: 3em sans-serif;
+}
+
+p {
+  font: 1.2em sans-serif;
+  color: white;
+}

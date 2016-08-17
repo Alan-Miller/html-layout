@@ -1,0 +1,24 @@
+section {
+  width: calc(100vw / 3);
+  /*width: 100px;*/
+  height: 100vh;
+  background: red;
+  float: left;
+  /*position: relative;*/
+}
+
+section:nth-child(2) {
+  background: green;
+}
+
+section:nth-child(3) {
+  background: blue;
+}
+
+.holder {
+  bottom: 0;
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  background: yellow;
+}
